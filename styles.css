@@ -11,7 +11,7 @@ body {
 }
 
 .hero-body {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("/shoes.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("./public/shoes.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -22,6 +22,6 @@ body {
     .hero-body {
         background-image:
             linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-            url("/shoes-mobile.jpg");
+            url("./public/shoes-mobile.jpg");
     }
 }
